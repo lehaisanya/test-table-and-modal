@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# Тестове завдання з таблицею та модальним вікном
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Посилання на дизайн:
 
-## Available Scripts
+https://www.figma.com/file/U0L6IsPxjM4RZp4KYZ14Ae/Test-Table-and-Modal
 
-In the project directory, you can run:
+Посилання на github pages:
 
-### `npm start`
+https://lehaisanya.github.io/test-table-and-modal
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Запуск проекту
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+`npm start`
 
-### `npm test`
+## Створена за допомогую таких технологій:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+-   React
+-   Typescript
+-   HTML/CSS
+-   create-react-app
+-   react-hook-form
+-   redux (toolkit)
 
-### `npm run build`
+## Умови тестового завдання:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Cоздать react приложение содержащее страницу с таблицей и модальным окном.
+2. Главная страница приложения содержит таблицу с сохраненными данными и кнопки.
+    - Таблица должна отображать данные сохраненные в store (для хранения и управления данными использовать @reduxjs/toolkit).
+    - При ширине таблицы больше экрана предусмотреть скролл, при этом кнопки сверху таблицы должны быть зафиксированы.
+    - По клику на иконку “Удалить” в строке таблицы удаляется строка в таблице.
+    - По клику на кнопку “Add” необходимо отобразить пошаговое модальное окно для ввода данных.
+3. Модальное окно имеет 3 шага: Invoice Address, Bank Data, Contact:
+    - Модальное окно можно реализовать самостоятельно или с использованием react-modal.
+    - Реализацию формы сделать с использованием react-hook-form.
+    - Набор полей для каждого шага отображен на макете.
+    - Поля помеченные `*` должны быть обязательными для заполнения.
+    - Поле “E-mail” с третьего шага должно быть email.
+    - Отображение ошибок валидации на Ваше усмотрение.
+4. Мобильную версию реализовывать не нужно.
+5. Для создания реакт приложения можно использовать react-create-app или свои сборщики.
+6. Приложение должно быть типизировано с использованием typescript.
+7. Использовать сторонние модули (кроме тех что указаны выше) запрещается.
