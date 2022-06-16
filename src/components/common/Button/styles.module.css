@@ -1,0 +1,29 @@
+.button {
+    padding: 5px 14px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    cursor: pointer;
+}
+
+.button.solid {
+    background-color: #83ba63;
+    border: 1px solid #83ba63;
+    color: white;
+}
+
+.button.outline {
+    border: 1px solid #83ba63;
+    color: #83ba63;
+    background-color: white;
+}
+
+.button.solid:hover {
+    background-color: #a6dc86;
+    border: 1px solid #a6dc86;
+}
+
+.button.outline:hover {
+    background-color: #cbffad;
+}
