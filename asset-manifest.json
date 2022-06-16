@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/test-table-and-modal/static/css/main.374c4c8b.css",
+    "main.js": "/test-table-and-modal/static/js/main.a16bbfe9.js",
+    "static/js/787.cee32841.chunk.js": "/test-table-and-modal/static/js/787.cee32841.chunk.js",
+    "index.html": "/test-table-and-modal/index.html",
+    "main.374c4c8b.css.map": "/test-table-and-modal/static/css/main.374c4c8b.css.map",
+    "main.a16bbfe9.js.map": "/test-table-and-modal/static/js/main.a16bbfe9.js.map",
+    "787.cee32841.chunk.js.map": "/test-table-and-modal/static/js/787.cee32841.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.374c4c8b.css",
+    "static/js/main.a16bbfe9.js"
+  ]
+}
